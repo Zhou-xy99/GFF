@@ -1,0 +1,6 @@
+# GFF
+A GNN-based few-shot fine-grained (GFF) image classification framework
+## Link
+https://doi.org/10.3390/s22197640
+## Abstract
+Traditional deep learning methods such as convolutional neural networks (CNN) have a high requirement for the number of labeled samples. In some cases, the cost of obtaining labeled samples is too high to obtain enough samples. To solve this problem, few-shot learning (FSL) is used. Currently, typical FSL methods work well on coarse-grained image data, but not as well on fine-grained image classification work, as they cannot properly assess the in-class similarity and inter-class difference of fine-grained images. In this work, an FSL framework based on graph neural network (GNN) is proposed for fine-grained image classification. Particularly, we use the information transmission of GNN to represent subtle differences between different images. Moreover, feature extraction is optimized by the method of meta-learning to improve the classification. The experiments on three datasets (CIFAR-100, CUB, and DOGS) have shown that the proposed method yields better performances. This indicates that the proposed method is a feasible solution for fine-grained image classification with FSL.
